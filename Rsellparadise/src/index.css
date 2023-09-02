@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: 'Poppins', sans-serif;
+  padding:0;
+  margin:0;
+  scroll-behavior: smooth;
+}
+.tag-flip{
+  -moz-transform: scale(-1, 1);
+-webkit-transform: scale(-1, 1);
+-o-transform: scale(-1, 1);
+-ms-transform: scale(-1, 1);
+transform: scale(-1, 1);
+}
+.buy-btn:hover{
+  background:#fff;
+  transition:0.1s ease-in;
+  transition-delay: 0.3s;
+}
+.card-item:hover{
+  transform:scale(1.07);
+  transition: 0.4s;
+  transition-delay:0.1s;
+}
+
+/* ------------------------- */
+.buy-btn-2:hover{
+  background:#BBC2E2;
+  color:white;
+  border-color:#BBC2E2;
+  transition:0.4s ease-in;
+}

@@ -1,0 +1,28 @@
+.form input{
+    padding-left: 1rem;
+    
+}
+
+.form input::selection{
+    outline: none !important;
+    margin: none !important;
+}
+
+.btn-shop{
+    transition:0.4s;
+    transition-delay: 0.1s;
+}
+.active-pay, .btn-pay:hover{
+    border-color: #7c78da;
+    color:#7c78da;
+    transition:0.3s;
+    transition-delay: 0.1s;
+}
+
+.setPaymentFlagActive{
+    @apply py-1 border-2 rounded-lg text-[20px] text-center active-pay btn-pay w-full cursor-pointer; 
+}
+
+.setPaymentFlagPassive{
+    @apply py-1 border-2 rounded-lg text-[20px] text-center btn-pay w-full cursor-pointer;       
+}
